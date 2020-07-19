@@ -10,6 +10,7 @@ cmake --build . --config Release
 
 ./addition
 
+clang-format --style="{BasedOnStyle: google, IndentWidth: 4}" -i addition/addition.cu
 
 # For profiling
 
